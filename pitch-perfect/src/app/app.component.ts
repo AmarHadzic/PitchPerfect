@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
-import { AngularMaterialModule } from './angular-material/angular-material.module';
+import { AngularMaterialModule } from '../angular-material/angular-material.module';
 
 
 @Component({
