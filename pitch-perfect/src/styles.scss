@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+@use '@angular/material' as mat;
+
+// Define color variables based on the provided color scheme
+:root {
+  --primary-color: #66FCF1;
+  --secondary-color: #45A29E;
+  --background-color-dark: #0B0C10;
+  --background-color-light: #C5C6C7;
+  --text-color: #1F2833;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
